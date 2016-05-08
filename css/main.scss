@@ -13,6 +13,7 @@ body {
   color: #bbbbbb;
   font-size: 1.2rem;
   line-height: 1.6;
+  scroll-behavior: smooth;
 }
 blockquote {
   margin-left: 2rem;
@@ -65,15 +66,26 @@ nav {
   width: 100%;
   font-size: 1rem;
   
-  a {
+  a, a:visited {
     display: inline-block;
     color: #63adff;
     text-decoration: none;
     padding: 1.5rem;
   }
+  a.active {
+    color: $color-main;
+  }
 }
 section {
   padding: 2rem;
+  
+  &.alternate {
+    background: #181A1D;
+    
+    h2 {
+      color: #3D5879
+    }
+  }
   
   h2 {
     text-align: center;
@@ -87,5 +99,5 @@ section {
 .container {
   margin: auto;
   width: 100%;
-  max-width: 40rem;
+  max-width: 43rem;
 }
