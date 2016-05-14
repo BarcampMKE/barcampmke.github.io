@@ -1,0 +1,9 @@
+/* TEAM */
+  Web Developer: Aaron Saray
+  Contact: aaron@aaronsaray.com
+  Twitter: @aaronsaray
+  
+/* THANKS */
+  Bob Waldron
+  Pete Prodoehl
+  

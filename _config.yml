@@ -1,5 +1,6 @@
 baseurl: "" 
+exclude: [README.md, LICENSE]
 sass:
   style: compressed
 compress_html:
-   clippings: all
+  clippings: all
