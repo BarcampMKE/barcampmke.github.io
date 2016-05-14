@@ -124,6 +124,50 @@ section {
   max-width: 43rem;
 }
 
+aside {
+  padding: 1rem 3rem;
+  background: #000000;
+  margin: 3rem 2rem 1rem 2rem;
+  font-size: 1rem;
+  h3 {
+    margin-top: 0;
+    text-align: center;
+    color: $color-main
+  }
+  &>p:last-child {
+    margin-bottom: 0;
+  }
+  
+}
+
+#get-involved {
+  &>* {
+    margin-top: 2rem;
+  }
+  dt {
+    display: inline-block;
+    width: 11rem;
+    vertical-align: top;
+    color: $color-main;
+  }  
+  dd {
+    width: 100%;
+    max-width: 31rem;
+    margin-left: 0;
+    display: inline-block;
+    p:first-child {
+      margin-top: 0;
+    }
+  }
+}
+#embedded-twitter {
+  height: 320px;
+  a {
+    display: none;
+  }
+}
+
+
 @media screen and (max-width : 700px) {
   nav {
     display: block;
