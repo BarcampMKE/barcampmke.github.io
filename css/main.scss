@@ -140,6 +140,24 @@ aside {
   
 }
 
+#sponsors {
+  background-color: #1d1f23;
+  text-align: center;
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  li {
+    margin-bottom: 2rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  img {
+    max-width: 100%;
+  }
+}
+
 #get-involved {
   &>* {
     margin-top: 2rem;
